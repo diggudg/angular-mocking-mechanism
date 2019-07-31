@@ -5,11 +5,11 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { UserPostComponent } from './users/user-post.component'
+import { UsersComponent } from './users/users.component'
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule],
-  declarations: [AppComponent, HelloComponent, UserPostComponent],
+  declarations: [AppComponent, HelloComponent, UsersComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
